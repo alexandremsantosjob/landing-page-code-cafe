@@ -1,0 +1,60 @@
+/* TELA TABLET */
+
+@media (max-width: 992px){ 
+
+    /* Quem somos */
+    .secao-com-texto{
+
+        padding: 153px 25px;
+    }
+    .secao-com-texto p{
+
+        width: 100%;
+
+    }
+}
+
+/* TELA MOBILE */
+
+@media (max-width: 768px){      
+
+}
+
+
+@media (max-width: 425px) { 
+
+
+    .cabecalho .logo{
+
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cabecalho nav{
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+
+    .cabecalho nav ul li{
+
+        display: block;
+
+    }
+
+    .cabecalho nav ul li a{
+
+        width: 100%;
+        display: block;
+    }
+
+    .painel h2{
+
+        font-size: 2.5rem;
+    }
+
+}     
+
+
+
+
